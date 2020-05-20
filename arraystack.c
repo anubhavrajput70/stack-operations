@@ -1,3 +1,4 @@
+//stack implementation with the help of 1D array 
 #include<stdio.h>
 #include<stdlib.h>
 #define CAPACITY 5
