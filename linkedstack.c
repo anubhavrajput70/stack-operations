@@ -52,14 +52,8 @@ struct node *ptr;
 temp=(struct node*)malloc(sizeof(struct node));
 temp->data=ele;
 temp->next=NULL;
-if(top==NULL)
-{
-top=temp;
-}
-else{
 temp->next=top;
 top=temp;
-}
 printf("%d pushed",ele);
 }
 void traverse()
